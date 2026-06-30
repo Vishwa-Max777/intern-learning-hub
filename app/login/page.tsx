@@ -14,6 +14,7 @@ export default function LoginPage() {
   const [username, setUsername] = useState('')
   const [password, setPassword] = useState('')
   const [error, setError] = useState('')
+  const [success, setSuccess] = useState(false)
   const [isReady, setIsReady] = useState(false)
 
   useEffect(() => {
